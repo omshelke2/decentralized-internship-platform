@@ -26,4 +26,5 @@ To create a **student-driven decentralized platform** where:
 
 ## 5. Contract Address
 `SP1234567890EXAMPLEADDRESS`  
-*(Replace with deployed address after publishing the contract on the Stacks blockchain.)*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/924714f7-621b-4c2b-ad9e-9ade4a67d3ec" />
+
