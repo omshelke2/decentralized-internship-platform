@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: internship_dao_platform
+            expected-sender: ST1M73BWR9WCXZ95VRXX0XE7A4D4B4Y7H3C6004ZM
+            cost: 11750
+            path: "contracts\\internship_dao_platform.clar"
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.2"
